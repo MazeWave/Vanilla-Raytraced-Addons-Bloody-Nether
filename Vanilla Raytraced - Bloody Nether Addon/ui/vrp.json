@@ -13,7 +13,7 @@
 							"$glyph_texture": "textures/vrp/addons-nether/icon",
 							"$glyph_color_texture": "textures/vrp/addons-nether/icon",
 							"$button_text": "vanillaRaytraced.addons.nether",
-							"$toggle_group_forced_index": 10002
+							"$toggle_group_forced_index": 10003
 						}
 					}
 				]
