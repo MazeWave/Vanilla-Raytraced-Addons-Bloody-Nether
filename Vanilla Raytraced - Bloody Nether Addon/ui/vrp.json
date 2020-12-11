@@ -1,0 +1,79 @@
+{
+	"namespace": "vrp",
+	"vrp_sidemenu": {
+		"$vrpAddon": true,
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_back",
+				"value": [
+					{
+						"nether_button@sidemenu_button": {
+							"$toggle_view_binding_name": "nether_toggle",
+							"$glyph_texture": "textures/vrp/addons-nether/icon",
+							"$glyph_color_texture": "textures/vrp/addons-nether/icon",
+							"$button_text": "vanillaRaytraced.addons.nether",
+							"$toggle_group_forced_index": 10002
+						}
+					}
+				]
+			}
+		]
+	},
+	"vrp_content": {
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_back",
+				"value": [
+					{
+						"nether@vrp.presentation": {
+							"$id": "nether_toggle",
+							"$icon": "textures/vrp/addons-nether/icon",
+							"$desc": "vanillaRaytraced.addons.nether.description",
+							"$text": "nether_text"
+						}
+					}
+				]
+			}
+		]
+	},
+	"nether_text": {
+		"controls": [
+			{
+				"rp_title@menu_text": {
+					"font_scale_factor": 1.2,
+					"text": "vanillaRaytraced.addons.nether.by"
+				}
+			},
+			{
+				"rp@menu_text": {
+					"text": "/§dMaze§5Wave\n\n"
+				}
+			},
+			{
+				"license_title@menu_text": {
+					"font_scale_factor": 1.2,
+					"text": "vanillaRaytraced.addons.nether.license.title"
+				}
+			},
+			{
+				"license@vrp.qa_answer": {
+					"text": "vanillaRaytraced.addons.nether.license"
+				}
+			},
+			{ "license_gap@menu_text": { "size": [6, 6] } },
+			{
+				"changes_title@menu_text": {
+					"font_scale_factor": 1.2,
+					"text": "vanillaRaytraced.addons.nether.changes"
+				}
+			},
+			{
+				"changes1-0@vrp.qa_answer": {
+					"text": "vanillaRaytraced.addons.nether.changes.1.0"
+				}
+			}
+		]
+	}
+}

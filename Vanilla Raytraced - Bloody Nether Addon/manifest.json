@@ -1,0 +1,20 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Bloody Nether Addon for Vanilla Raytraced",
+        "description": "Bloody Nether Addon for Vanilla §aRaytraced§r",
+        "version": [1, 1, 0],
+        "uuid": "dacb7e2a-3bc9-11eb-b1f4-d7711546b58f",
+		"min_engine_version": [1, 15, 0]
+    },
+    "modules": [
+        {
+            "version": [1, 0, 0],
+            "type": "resources",
+            "uuid": "e20756be-3bc9-11eb-bc27-cf2d52fa5f16"
+        }
+    ],
+    "capabilities" : [
+            "raytraced"
+    ]
+}
