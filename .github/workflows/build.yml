@@ -18,15 +18,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
      
-      - name: Download the template
-        uses: wei/wget@v1
-        with:
-          args: -O Vanilla.zip https://aka.ms/resourcepacktemplate
-      - name: Unzip the template
-        run: unzip -qq Vanilla.zip -d Vanilla
       - name: Generate
         shell: pwsh
-        run: 'pwsh ".\generate.ps1" -vanilla "Vanilla" -pack "./Vanilla Raytraced - Bloody Nether Addon"'
+        run: 'pwsh .\make.ps1'
       - name: Upload to Artifact
         uses: actions/upload-artifact@v2
         with:
@@ -40,6 +34,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ fromJson(steps.get_latest_release.outputs.data).upload_url }}
-          asset_path: Vanilla Raytraced.mcpack
+          asset_path: '.temp/export/Vanilla Raytraced - Bloody Nether Addon.mcpack'
           asset_name:  Bloody-Nether-Addon-for-Vanilla-Raytraced.${{ fromJson(steps.get_latest_release.outputs.data).tag_name }}.mcpack
           asset_content_type: application/zip
