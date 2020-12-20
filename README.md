@@ -5,5 +5,4 @@
   <a href="https://github.com/MazeWave/Vanilla-Raytraced-Addons-Bloody-Nether/releases"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/MazeWave/Vanilla-Raytraced-Addons-Bloody-Nether/total"></a>
 </p>
 
-**Bloody Nether Addon for [Vanilla Raytraced](https://github.com/MazeWave/Vanilla-Raytraced)** 
-* This addon add a unique atmosphere to this dimension. Try it out!
+**Bloody Nether Addon for [Vanilla Raytraced](https://github.com/MazeWave/Vanilla-Raytraced)** adds a unique atmosphere to this dimension. Try it out!
