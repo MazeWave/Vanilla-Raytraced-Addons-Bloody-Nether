@@ -6,3 +6,4 @@
 </p>
 
 **Bloody Nether Addon for [Vanilla Raytraced](https://github.com/MazeWave/Vanilla-Raytraced)** 
+* This addon add a unique atmosphere to this dimension. Try it out!
